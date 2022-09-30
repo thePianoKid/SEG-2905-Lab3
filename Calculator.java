@@ -1,7 +1,6 @@
 /* 
 SECTION 1 */
 import android.os.Bundle;
-import androidview.Menu;
 import android.app.Activity;
 import android.view.View;
 import android.view.Menu;
@@ -9,7 +8,7 @@ import android.widget.EditText;
 
 public class MainActivity extends Activity {
 
-	private enum Operatoer {none,add, minus, multiply, divide}
+	private enum Operator {none,add,minus,multiply,divide}
 	private double data1 = 0, data2 = 0;
 	private Operator optr = Operator.none;
 
@@ -26,12 +25,10 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
-	public void btn00ClickView view) {
+	public void btn00Click (View view) {
 		EditText eText = (EditText)findViewById(R.id.resultEdit);
 		eText.setText(eText.getText()+"0");
 	}
-
-
 
 
 /* 
