@@ -130,7 +130,7 @@ SECTION 5 */
 
 
 Public void btnResultClick(View view)	{
-		If (optr != Operator.none) {
+	If (optr != Operator.none) {
 		EditText eText = (EditText)findViewById(R.id.resultEdit);
 		data2 = Double.parsedouble(eText.getText () .toString());
 		double result = 0;
