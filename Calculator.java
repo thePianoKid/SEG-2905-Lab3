@@ -33,13 +33,13 @@ Public void btnResultClick(View view)	{
 		double result = 0;
 		if	 (optr == Operator.add)	{
 			result = data1+data2;
-} else if (optr == Operator.minus)	{
+		} else if (optr == Operator.minus)	{
 			result = data1-data2;
-} else if (optr == Operator.multiply)	{
+		} else if (optr == Operator.multiply)	{
 			result = data1*data2;
-} else if (optr == Operator.divide)	{
+		} else if (optr == Operator.divide)	{
 			result = data1/data2;
-}
+		}
 		Optr = Operator.none;
 		Data1 = result;
 		If( (result-(int(result) ! =0)
@@ -47,7 +47,7 @@ Public void btnResultClick(View view)	{
 		else
 			etext.settext(String.valueOf((int)result);
 		}
-}
+	}
 }
 
 
