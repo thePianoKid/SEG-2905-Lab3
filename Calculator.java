@@ -62,7 +62,7 @@ public void btn06Click(View view) {
 SECTION 3 */
 public void btn01Click (View view) {
     EditText eText = (EditText)findViewById(R.id.resultEdit);
-    eText.setText (eText.getText ()+"1") ;
+    eText.setText(eText.getText ()+"1") ;
 }
 
 public void btn02Click (View view) {
@@ -85,7 +85,7 @@ public void btn05Click (View view) {
 }
 public void btn06Click (View view) {
     EditText eText = (EditText)findViewById(R.id.resultEdit);
-    eText.setText (eText.getText () +"6") ;
+    eText.setText(eText.getText () +"6") ;
 } 
 
 
