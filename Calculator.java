@@ -143,9 +143,9 @@ Public void btnResultClick(View view)	{
 		Optr = Operator.none;
 		Data1 = result;
 		If( (result-(int(result) ! =0)
-			eText.settext( String.valueOf(result));
+			eText.setText( String.valueOf(result));
 		else
-			etext.settext(String.valueOf((int)result);
+			etext.setText(String.valueOf((int)result);
 		}
 	}
 }
