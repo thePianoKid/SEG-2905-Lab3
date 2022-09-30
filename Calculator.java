@@ -115,7 +115,7 @@ public void btnAddClick (View view) {
 public void btnMinusClick (View view){
     optr = Operator.minus;
     EditText eText = (EditText)findViewById(R.id.resultEdit);
-    datal = Double.parseDouble(eText.getText().toString ()) :
+    datal = Double.parseDouble(eText.getText().toString()) :
     eText.setText("");
 }
 
