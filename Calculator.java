@@ -99,11 +99,11 @@ public void btn07Click (View view) {
 }
 public void btn08Click (View view) { 
     EditText eText = (EditText)findViewById(R.id.resultEdit);
-    eText.setText (eText.getText() +"8") ;
+    eText.setText(eText.getText() +"8") ;
 }
 public void btn09Click (View view) {
     EditText eText= (EditText)findViewById(R.id.resultEdit);
-    eText.setText (eText.getText() +"9") ;
+    eText.setText(eText.getText() +"9") ;
 }
 public void btnAddClick (View view) {
     optr = Operator. add;
