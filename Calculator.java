@@ -108,7 +108,7 @@ public void btn09Click (View view) {
 public void btnAddClick (View view) {
     optr = Operator. add;
     EditText eText=(EditText)findViewById(R.id.resultEdit);
-    detal = = Double.parseDouble(eText.getText().toString ());
+    detal = = Double.parseDouble(eText.getText().toString());
     eText.setText("");
 
 }
